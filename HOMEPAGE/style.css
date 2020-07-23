@@ -168,8 +168,6 @@ body{
     margin-bottom: 15px;
 }
 
-
-
 #main-section3-words{
     font-style: normal;
     font-weight: normal;
@@ -182,12 +180,6 @@ body{
     width: 436px;
     height: 739px;
 }
-
-/* body {
-    align-items: center;
-    justify-content: center;
-    font-family: 'Inter', sans-serif;
-} */
 
 .main-section-2 {
     background-color: white;
@@ -289,6 +281,4 @@ body{
     position: absolute;
     height: 35px;
 }
-
-
 
