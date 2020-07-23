@@ -74,7 +74,6 @@ body {
 }
 
 .main-section1-head {
-    /* position: absolute; */
     width: 617px;
     height: 173px;
     margin: 440px 140px 200px 140px;
@@ -130,7 +129,6 @@ body {
     font-weight: bold;
     font-size: 36px;
     line-height: 44px;
-    /* identical to box height */
     letter-spacing: 0.02em;
     color: #E5E5E5;
     margin-bottom: 35px;
@@ -189,24 +187,22 @@ body {
 .main-section-2 {
     background-color: white;
     border: 1px solid black;
-    /* width: 1360px;
-    height: 705px; */
     position: relative;
     padding: 50px;
+    width: 100%;
 }
 
 .image-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 40px;
-    /* position: absolute; */
     align-items: center;
     justify-content: center;
 }
 
 .card img {
-    height: 350px;
-    width: 175px;
+    height: 450px;
+    width: 100%;
 }
 
 .card {
@@ -217,30 +213,33 @@ body {
 .box:hover {
     text-align: center;
     border-bottom: 2px solid #1b4332;
-    width: 170px;
+    width: 100%;
     border-right: 2px solid #1b4332;
     border-left: 2px solid #1b4332;
     white-space: nowrap;
     background-color: #1b4332;
-    height: 100px;
+    height: 150px;
     position: absolute;
     bottom: 0;
     overflow: visible;
+    padding: 10px;
 }
 
 .box {
     text-align: center;
     border-bottom: 2px solid #1b4332;
-    width: 170px;
+    width: 100%;
     border-right: 2px solid #1b4332;
     border-left: 2px solid #1b4332;
     white-space: nowrap;
     background-color: #1b4332;
-    height: 20px;
+    height: 35px;
     position: absolute;
     bottom: 0;
+    left: 0;
     overflow: hidden;
     transition: height 0.3s;
+    padding: 7px;
 }
 
 .icon1 img {
@@ -255,7 +254,7 @@ body {
 
 .a {
     color: white;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .b {
