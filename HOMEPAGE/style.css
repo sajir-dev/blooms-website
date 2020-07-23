@@ -57,7 +57,7 @@ body {
 }
 
 .header-right a:hover {
-    border-bottom: 4px solid #E5E5E5;
+    text-decoration: underline;
 }
 
 #header-contact {
