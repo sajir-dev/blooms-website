@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Inter;
+    margin:0px;
+}
+
+body{
+    
+}
+
+.main-section1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    position: relative;
+}
+
+video{
+    object-fit: cover; /*to cover all the box*/
+}
+
+.screen{
+    width: 100%;
+    height: 500px;
+}
+
+#video{
+    width: 75%;
+    /* height: 500px; */
+}
+
+
+.play-button{
+    position: absolute;
+    top: 20%;
+    z-index: 10;
+    display: block;
+}
+
+
+.fa-play-circle{
+    font-size: 250px;
+    color: rgb(231, 230, 230);
+    opacity: 0.7;
+    /* z-index: 100; */
+}
+
+.main-section3{
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-section3 > div{
+    margin: 100px 50px;
+    width: 436px;
+    height: 739px;
+}
+
+.main-section3-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+    background-color: #0D1613;
+}
+
+.footer-section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 250px 10px;
+}
+
+#footer-section1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.02em;
+    color: #E5E5E5;
+}
+
+.footer-section2{
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.footer-section2 a {
+    text-decoration: none;
+    color: #E5E5E5;
+    margin: 20px 10px;
+    font-size: 18px;
+}
+
+.footer-section2 p {
+    cursor: pointer;
+    color: #E5E5E5;
+    margin: 15px 10px;
+    font-size: 17px;
+}
+
+.footer-section2-one{
+    width: 230px;
+    height: 29px;
+    text-align: center;
+}
+
+.footer-section2-two{
+    width: 179px;
+    height: 22px;
+    text-align: center;
+}
+
+.footer-section2-three{
+    width: 295px;
+    height: 44px;
+    text-align: center;
+}
+
+.footer-section2-four{
+    width: 287px;
+    height: 22px;
+    text-align: center;
+}
+
+.footer-section3 {
+    width: 95vw;
+    padding: 67px 5px 83px 5px;
+    color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
