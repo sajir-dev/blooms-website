@@ -1,0 +1,93 @@
+{
+    "projects": [   
+        {
+            "property-name": "Dew",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-1.png",
+            "legal-status": "100",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        } ,
+
+        {
+            "property-name": "Echo",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-2.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        },
+
+        {
+            "property-name": "Breeze",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-2.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        },
+
+        {
+            "property-name": "Dew",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-1.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        } ,
+
+        {
+            "property-name": "Echo",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-2.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        },
+
+        {
+            "property-name": "Breeze",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-2.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        },
+
+        {
+            "property-name": "Dew",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-1.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        } ,
+
+        {
+            "property-name": "Echo",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-2.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        },
+
+        {
+            "property-name": "Breeze",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-2.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        }
+    ]
+}
