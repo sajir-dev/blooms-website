@@ -1,16 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
 * {
     box-sizing: border-box;
     font-family: Inter;
-    margin:0px;
+    margin: 0px;
 }
 
-body{
-    
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.main-section1{
+.background-image {
+    width: 100vw;
+    left: 0px;
+    top: 0px;
+}
+
+.background-image img {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.header {
+    position: absolute;
+    top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 18fr 4fr;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    white-space: nowrap;
+    margin-top: 20px;
+    max-width: 1440px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.main-section1 {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 40%;
+}
+
+.main-section1 h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    width: 90%;
+}
+
+.main-section1 p {
+    color: white;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.3em;
+    width: 90%;
+}
+
+.main-video {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+#video {
+    width: 100%;
+}
+
+.main-sectionsvg {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+.main-section2 {
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -18,67 +95,66 @@ body{
     position: relative;
 }
 
-video{
-    object-fit: cover; /*to cover all the box*/
+.main-section2 video {
+    object-fit: cover;
+    /*to cover all the box*/
 }
 
-.screen{
+.screen {
     width: 100%;
     height: 500px;
 }
 
-#video{
+#video-section {
     width: 75%;
     /* height: 500px; */
 }
 
-
-.play-button{
+.play-button {
     position: absolute;
     top: 20%;
     z-index: 10;
     display: block;
 }
 
-
-.fa-play-circle{
+.fa-play-circle {
     font-size: 250px;
     color: rgb(231, 230, 230);
     opacity: 0.7;
     /* z-index: 100; */
 }
 
-.main-section3{
+.main-section3 {
     width: 95vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.main-section3 > div{
+.main-section3>div {
     margin: 100px 50px;
     width: 436px;
     height: 739px;
 }
 
-.main-section3-head{
+.main-section3-head {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.footer{
+.footer {
     background-color: #0D1613;
 }
 
-.footer-section1{
+.footer-section1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 250px 10px;
 }
 
-#footer-section1{
+#footer-section1 {
     font-weight: bold;
     font-size: 48px;
     line-height: 58px;
@@ -86,7 +162,7 @@ video{
     color: #E5E5E5;
 }
 
-.footer-section2{
+.footer-section2 {
     width: 95vw;
     display: flex;
     flex-direction: row;
@@ -108,25 +184,25 @@ video{
     font-size: 17px;
 }
 
-.footer-section2-one{
+.footer-section2-one {
     width: 230px;
     height: 29px;
     text-align: center;
 }
 
-.footer-section2-two{
+.footer-section2-two {
     width: 179px;
     height: 22px;
     text-align: center;
 }
 
-.footer-section2-three{
+.footer-section2-three {
     width: 295px;
     height: 44px;
     text-align: center;
 }
 
-.footer-section2-four{
+.footer-section2-four {
     width: 287px;
     height: 22px;
     text-align: center;
@@ -140,4 +216,3 @@ video{
     flex-direction: row;
     justify-content: center;
 }
-
