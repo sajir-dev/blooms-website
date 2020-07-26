@@ -93,6 +93,7 @@ body {
     justify-content: center;
     max-width: 1440px;
     position: relative;
+    width: 900px;
 }
 
 .main-section2 video {
@@ -100,13 +101,13 @@ body {
     /*to cover all the box*/
 }
 
-.screen {
-    width: 100%;
+.screen-section {
+    width: 150%;
     height: 500px;
 }
 
 #video-section {
-    width: 75%;
+    width: 100%;
     /* height: 500px; */
 }
 
@@ -133,7 +134,7 @@ body {
 
 .main-section3>div {
     margin: 100px 50px;
-    width: 436px;
+    width: 486px;
     height: 739px;
 }
 
@@ -143,7 +144,11 @@ body {
     justify-content: center;
 }
 
-.footer {
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
     background-color: #0D1613;
 }
 
@@ -152,6 +157,7 @@ body {
     flex-direction: row;
     justify-content: center;
     padding: 250px 10px;
+    max-width: 1440px;
 }
 
 #footer-section1 {
@@ -168,6 +174,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 25px;
+    max-width: 1440px;
 }
 
 .footer-section2 a {
@@ -208,11 +215,24 @@ body {
     text-align: center;
 }
 
+#footer-talk{
+    font-size: 20px!important;
+    font-weight: 700;
+}
+
 .footer-section3 {
     width: 95vw;
     padding: 67px 5px 83px 5px;
     color: #E5E5E5;
+    max-width: 1440px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+@media screen and (max-width: 943px) {
+    .main-section2 {
+        width: 65%;
+        height: 5%;
+    }
 }
