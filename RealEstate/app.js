@@ -3,7 +3,7 @@ const video = document.getElementById('video');
 
 //function 
 function toggleVideoStatus() {
-    console.log(playBtn);
+    // console.log(playBtn);
     if(video.paused) {
         playBtn.style.display = "none";
         video.play();
@@ -55,8 +55,8 @@ setTimeout(function(){
     // itemWidth = carouselItem.scrollWidth;
     // clicks = itemWidth*9/300;
     // scrollStep = (itemWidth*9 - progressBar.scrollWidth)/(clicks+1);
-    console.log('scrollstep'+scrollStep);
-    console.log('clicks: '+ clicks);
+    // console.log('scrollstep'+scrollStep);
+    // console.log('clicks: '+ clicks);
 }, 1000);
 
 //25-06
@@ -105,7 +105,7 @@ getData().then(data => {
             </div>
         </div>
         `;
-        console.log(sliderHTML);
+        // console.log(sliderHTML);
 
     });
     wrapper.innerHTML = sliderHTML;
@@ -114,7 +114,7 @@ getData().then(data => {
 let progressBarMargin = 0;
 
 buttonLeft.addEventListener('click', (e) => {
-    console.log('event fired');
+    // console.log('event fired');
     container.scrollTo(container.scrollLeft-300, 0)
     progressBarMargin -= scrollStep;
     progressBar.style.marginLeft = `${progressBarMargin}px`;
@@ -134,4 +134,6 @@ sliderArrowHandler();
 
 // console.log('container client width: '+container.clientWidth);
 // console.log('wrapper-client width: '+ wrapper.clientWidth);
+
+
 
