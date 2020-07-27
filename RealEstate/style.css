@@ -234,6 +234,11 @@ body {
     justify-content: center;
 }
 
+.pagination{
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
 /* commenting the dropdown part:start - took over by Himaja */
 /* styling for project listing page dropdown- start: added by sajir */
 

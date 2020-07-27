@@ -1,5 +1,5 @@
 
-const secondPage = document.querySelector('.page-2');
+const firstPage = document.querySelector('.page-1');
 
 // Listing page
 
@@ -20,7 +20,7 @@ getListedProjects()
         let b = 0;
 
         data.listedProjects.forEach(project => {
-            if(project['property-id'] <= 6) {
+            if(project['property-id'] > 6) {
             projectCards += `
             <div class="project-item project-item-card">
                 <div class="project-image">
@@ -46,10 +46,10 @@ getListedProjects()
         
             b = project['property-id'];
             // console.log(`${project['property-id']`);
-            if(project['property-id'] <= 6){
+            // if(project['property-id'] >= 6){
                 listing.innerHTML = projectCards;   
+            // }
             }
-        }
         });
         console.log('a',b);
         // console.log(projectCards);
@@ -58,8 +58,8 @@ getListedProjects()
 
 
     
-secondPage.addEventListener('click', function paggination() {
+firstPage.addEventListener('click', function paggination() {
     console.log('a');
-    window.location = "realEstateListingtwo.html";
+    window.location = "realEstateListing.html";
 });
 

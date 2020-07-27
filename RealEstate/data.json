@@ -95,6 +95,7 @@
     "listedProjects" : 
         [
             {
+                "property-id": 1,
                 "property-name": "Breeze",
                 "property-place":"Wayanad",
                 "property-state":"Kerala",
@@ -105,6 +106,7 @@
                 "current-project-status": "Customer Acquisition"
             }, 
             {
+                "property-id": 2,
                 "property-name": "Dew",
                 "property-place":"Wayanad",
                 "property-state":"Kerala",
@@ -115,6 +117,7 @@
                 "current-project-status": "Customer Acquisition"
             },
             {
+                "property-id": 3,
                 "property-name": "Echo",
                 "property-place":"Wayanad",
                 "property-state":"Kerala",
@@ -125,6 +128,7 @@
                 "current-project-status": "Customer Acquisition"
             },
             {
+                "property-id": 4,
                 "property-name": "Dew",
                 "property-place":"Wayanad",
                 "property-state":"Kerala",
@@ -135,6 +139,7 @@
                 "current-project-status": "Customer Acquisition"
             },
             {
+                "property-id": 5,
                 "property-name": "Dew",
                 "property-place":"Wayanad",
                 "property-state":"Kerala",
@@ -145,6 +150,7 @@
                 "current-project-status": "Customer Acquisition"
             },
             {
+                "property-id": 6,
                 "property-name": "Dew",
                 "property-place":"Wayanad",
                 "property-state":"Kerala",
@@ -155,6 +161,7 @@
                 "current-project-status": "Customer Acquisition"
             },
             {
+                "property-id": 7,
                 "property-name": "Dew",
                 "property-place":"Wayanad",
                 "property-state":"Kerala",
@@ -165,6 +172,7 @@
                 "current-project-status": "Customer Acquisition"
             },
             {
+                "property-id": 8,
                 "property-name": "Dew",
                 "property-place":"Wayanad",
                 "property-state":"Kerala",
@@ -175,16 +183,49 @@
                 "current-project-status": "Customer Acquisition"
             },
             {
+                "property-id": 9,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-3.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 10,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-2.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 11,
                 "property-name": "Dew",
                 "property-place":"Wayanad",
                 "property-state":"Kerala",
                 "property-image": "img/item-5.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 12,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-4.png",
                 "legal-status": "90",
                 "property-type": "Self Sufficient Community Living",
                 "plot-availability": "2",
                 "current-project-status": "Customer Acquisition"
             }
-
         ]
 
     
