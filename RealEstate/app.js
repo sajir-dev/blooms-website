@@ -90,7 +90,21 @@ getData().then(data => {
                 <p class="property-availability">${project['plot-availability']}</p>
                 <p class="project-status">${project['project-status']}</p>
             </div>
-        </div>`;
+            <div class="details">
+                <div class="project-details">
+                    <span class="detail-box">PROJECT DETAILS</span>
+                    <span class="arrow">
+                            <img src="img/down_arrow_project_details.png">
+                        </span>
+                </div>
+                <div class="enquire">
+                    <span class="enquire-details">
+                            ENQUIRE
+                        </span>
+                </div>
+            </div>
+        </div>
+        `;
         console.log(sliderHTML);
 
     });

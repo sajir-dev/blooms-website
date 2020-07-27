@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: Inter;
+    font-family: Inter sans-serif;
     margin:0px;
 }
 
@@ -143,4 +143,28 @@ video{
     flex-direction: row;
     justify-content: center;
 }
+
+/* commenting the dropdown part:start - took over by Himaja */
+/* styling for project listing page dropdown- start: added by sajir */
+
+/* .container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+.header-section {
+    display: flex;
+    margin: 0 1em;
+    justify-content: space-between;
+}
+
+.header-section select {
+    border: 1px solid #E5E5E5;
+} */
+
+/* styling for project listing page dropdown -end : added by sajir */
+/* commenting the dropdown part:end - took over by Himaja  */
 
