@@ -234,6 +234,33 @@ body {
     justify-content: center;
 }
 
+.pagination{
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.project-details-btn{
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #2D6A4F;
+    font-weight: 600;
+}
+
+.project-enquire-btn{
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #2D6A4F;
+    color: #ffffff;
+}
+
+.margin{
+    margin-left: 9px;
+    position: relative;
+    top: 1px;
+}
+
 /* commenting the dropdown part:start - took over by Himaja */
 /* styling for project listing page dropdown- start: added by sajir */
 
