@@ -126,8 +126,10 @@ function filterfunction() {
     
                     listing.innerHTML = projectCards
                 } 
+               
             }
             });
+            a = [];
             // console.log(projectCards);
         });
 
