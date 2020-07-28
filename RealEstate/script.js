@@ -15,6 +15,11 @@ function myFunction3() {
     document.getElementById("myDropdown2").classList.remove("show");
     document.getElementById("myDropdown1").classList.remove("show");
 }
+
+
+
+
+
 // window.onclick = function(event) {
 //     if (!event.target.matches('.dropbtn')) {
 //         let dropdowns = document.getElementsByClassName("dropdown-content");
