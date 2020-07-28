@@ -1,4 +1,3 @@
-
 const firstPage = document.querySelector('.page-1');
 const leftArrow = document.querySelector('.left-arrow');
 
@@ -8,7 +7,7 @@ const listing = document.querySelector('.project-cards-wrapper');
 console.log(listing);
 
 async function getListedProjects() {
-    const response = await fetch ('data.json');
+    const response = await fetch('data.json');
     const data = await response.json();
     return data;
 }
@@ -16,13 +15,13 @@ async function getListedProjects() {
 getListedProjects()
     .then(data => {
         // console.log(data.listedProjects)
-        
+
         let projectCards = '';
         let b = 0;
 
         data.listedProjects.forEach(project => {
-            if(project['property-id'] > 9) {
-            projectCards += `
+            if (project['property-id'] > 9) {
+                projectCards += `
             <div class="project-item project-item-card">
                 <div class="project-image">
                     <img src="${project['property-image']}">
@@ -32,33 +31,56 @@ getListedProjects()
                     <p class="project-location"><span class="project-place">${project['property-place']}</span>, <span
                             class="project-state">${project['property-state']}</span></p>
                     <p class="project-type">${project['property-type']}</p>
-                    <p class="legal-process">Legal process<input type="range" min="0"
-                                max="100" id="legal-status-progress" value="${project['legal-status']}"></p>
-                    <p class="plot-availability">Plot Availability <input type="range" min="0" max="7" value="${project['plot-availability']}" id="availability-status"></p>
-                    <p class="project-status">Current project status: <span class="current-project-status">${project['current-project-status']}</span></p>
-                    <div class="more-project-details">
-                        <a href="#!" class="project-details-btn">PROJECT DETAILS<img src="img/down_arrow_project_details.png" alt="" class='margin'></a>
-                        <a href="#!" class="project-enquire-btn">ENQUIRE</a>
+                    <div class="legal">
+                    <div class="text">
+                        Legal Process
                     </div>
-
+                    <div class="bars">
+                        <div class="bar1">
+                            <img src="img/bar 1.png">
+                        </div>
+                        <div class="bar2">
+                            <img src="img/bar 2.png">
+                        </div>
+                    </div>
+                    </div>
+                <div class="plot">
+                    Plot Availability
+                    <div class="small-bars">
+                        <img src="img/small bar 1.png">
+                        <img src="img/small bar 1.png">
+                        <img src="img/small bar 2.png">
+                        <img src="img/small bar 2.png">
+                        <img src="img/small bar 2.png">
+                        <img src="img/small bar 2.png">
+                        <img src="img/small bar 2.png">
+                    </div>
                 </div>
+                <p class="project-status">Current project status: <span class="current-project-status">${project['current-project-status']}</span></p>
+                <div class="more-project-details"> 
+                <br>
+                    <a href="#!" class="project-details-btn">PROJECT DETAILS<img src="img/down_arrow_project_details.png" alt="" class="margin"></a>
+                    <a href="#!" class="project-enquire-btn">ENQUIRE</a>
+                </div>
+
             </div>
-            `;
-        
-            b = project['property-id'];
-            // console.log(`${project['property-id']`);
-            // if(project['property-id'] >= 6){
-                listing.innerHTML = projectCards;   
-            // }
+        </div>
+        `;
+
+                b = project['property-id'];
+                // console.log(`${project['property-id']`);
+                // if(project['property-id'] >= 6){
+                listing.innerHTML = projectCards;
+                // }
             }
         });
-        console.log('a',b);
+        console.log('a', b);
         // console.log(projectCards);
     });
 
 
 
-    
+
 firstPage.addEventListener('click', function paggination() {
     console.log('a');
     window.location = "realEstateListing.html";
@@ -67,4 +89,3 @@ firstPage.addEventListener('click', function paggination() {
 leftArrow.addEventListener('click', function paggination() {
     window.location = "realEstateListing.html";
 });
-
