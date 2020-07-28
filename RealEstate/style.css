@@ -442,6 +442,20 @@ h1 {
     flex-direction: row;
 }
 
+.heading-section h1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+
+.heading-section a {
+    color: rgb(45, 106, 79);
+    text-decoration: none;
+    border: 1px solid rgb(45, 106, 79);
+    padding: 10px;
+}
+
 
 /* END: styling for the cards- to be populated from JSON- by Sajir */
 
