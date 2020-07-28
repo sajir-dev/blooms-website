@@ -97,7 +97,7 @@
             {
                 "property-id": 1,
                 "property-name": "Breeze",
-                "property-place":"Wayanad",
+                "property-place":"Bangalore",
                 "property-state":"Kerala",
                 "property-image": "img/item-2.png",
                 "legal-status": "90",
@@ -108,7 +108,7 @@
             {
                 "property-id": 2,
                 "property-name": "Dew",
-                "property-place":"Wayanad",
+                "property-place":"Ernakulam",
                 "property-state":"Kerala",
                 "property-image": "img/item-3.png",
                 "legal-status": "90",
@@ -152,7 +152,7 @@
             {
                 "property-id": 6,
                 "property-name": "Dew",
-                "property-place":"Wayanad",
+                "property-place":"Bangalore",
                 "property-state":"Kerala",
                 "property-image": "img/item-5.png",
                 "legal-status": "90",
@@ -163,13 +163,13 @@
             {
                 "property-id": 7,
                 "property-name": "Dew",
-                "property-place":"Wayanad",
+                "property-place":"Ernakulam",
                 "property-state":"Kerala",
                 "property-image": "img/item-5.png",
                 "legal-status": "90",
                 "property-type": "Self Sufficient Community Living",
                 "plot-availability": "2",
-                "current-project-status": "Customer Acquisition"
+                "current-project-status": "Legal Check"
             },
             {
                 "property-id": 8,
@@ -191,106 +191,7 @@
                 "legal-status": "90",
                 "property-type": "Self Sufficient Community Living",
                 "plot-availability": "2",
-                "current-project-status": "Customer Acquisition"
-            },
-            {
-                "property-id": 10,
-                "property-name": "Dew",
-                "property-place":"Wayanad",
-                "property-state":"Kerala",
-                "property-image": "img/item-2.png",
-                "legal-status": "90",
-                "property-type": "Self Sufficient Community Living",
-                "plot-availability": "2",
-                "current-project-status": "Customer Acquisition"
-            },
-            {
-                "property-id": 11,
-                "property-name": "Dew",
-                "property-place":"Wayanad",
-                "property-state":"Kerala",
-                "property-image": "img/item-5.png",
-                "legal-status": "90",
-                "property-type": "Self Sufficient Community Living",
-                "plot-availability": "2",
-                "current-project-status": "Customer Acquisition"
-            },
-            {
-                "property-id": 12,
-                "property-name": "Dew",
-                "property-place":"Wayanad",
-                "property-state":"Kerala",
-                "property-image": "img/item-4.png",
-                "legal-status": "90",
-                "property-type": "Self Sufficient Community Living",
-                "plot-availability": "2",
-                "current-project-status": "Customer Acquisition"
-            },
-            {
-                "property-id": 13,
-                "property-name": "Dew",
-                "property-place":"Wayanad",
-                "property-state":"Kerala",
-                "property-image": "img/item-4.png",
-                "legal-status": "90",
-                "property-type": "Self Sufficient Community Living",
-                "plot-availability": "2",
-                "current-project-status": "Customer Acquisition"
-            },
-            {
-                "property-id": 14,
-                "property-name": "Dew",
-                "property-place":"Wayanad",
-                "property-state":"Kerala",
-                "property-image": "img/item-4.png",
-                "legal-status": "90",
-                "property-type": "Self Sufficient Community Living",
-                "plot-availability": "2",
-                "current-project-status": "Customer Acquisition"
-            },
-            {
-                "property-id": 15,
-                "property-name": "Dew",
-                "property-place":"Wayanad",
-                "property-state":"Kerala",
-                "property-image": "img/item-4.png",
-                "legal-status": "90",
-                "property-type": "Self Sufficient Community Living",
-                "plot-availability": "2",
-                "current-project-status": "Customer Acquisition"
-            },
-            {
-                "property-id": 16,
-                "property-name": "Dew",
-                "property-place":"Wayanad",
-                "property-state":"Kerala",
-                "property-image": "img/item-4.png",
-                "legal-status": "90",
-                "property-type": "Self Sufficient Community Living",
-                "plot-availability": "2",
-                "current-project-status": "Customer Acquisition"
-            },
-            {
-                "property-id": 17,
-                "property-name": "Dew",
-                "property-place":"Wayanad",
-                "property-state":"Kerala",
-                "property-image": "img/item-4.png",
-                "legal-status": "90",
-                "property-type": "Self Sufficient Community Living",
-                "plot-availability": "2",
-                "current-project-status": "Customer Acquisition"
-            },
-            {
-                "property-id": 18,
-                "property-name": "Dew",
-                "property-place":"Wayanad",
-                "property-state":"Kerala",
-                "property-image": "img/item-4.png",
-                "legal-status": "90",
-                "property-type": "Self Sufficient Community Living",
-                "plot-availability": "2",
-                "current-project-status": "Customer Acquisition"
+                "current-project-status": "Legal Check"
             }
         ]
 }

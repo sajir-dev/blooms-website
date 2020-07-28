@@ -20,7 +20,6 @@ getListedProjects()
         let b = 0;
 
         data.listedProjects.forEach(project => {
-            if (project['property-id'] > 9) {
                 projectCards += `
             <div class="project-item project-item-card">
                 <div class="project-image">
@@ -72,7 +71,6 @@ getListedProjects()
                 // if(project['property-id'] >= 6){
                 listing.innerHTML = projectCards;
                 // }
-            }
         });
         console.log('a', b);
         // console.log(projectCards);
