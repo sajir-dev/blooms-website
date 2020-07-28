@@ -115,7 +115,7 @@ let progressBarMargin = 0;
 
 buttonLeft.addEventListener('click', (e) => {
     // console.log('event fired');
-    container.scrollTo(container.scrollLeft-300, 0)
+    container.scrollTo(container.scrollLeft-420, 0)
     progressBarMargin -= scrollStep;
     progressBar.style.marginLeft = `${progressBarMargin}px`;
     setTimeout(sliderArrowHandler, 500);
@@ -124,7 +124,7 @@ buttonLeft.addEventListener('click', (e) => {
 // console.log(wrapper.offsetWidth);
 
 buttonRight.addEventListener('click', (e) => {
-    container.scrollLeft += 300;
+    container.scrollLeft += 420;
     progressBarMargin += scrollStep;
     progressBar.style.marginLeft = `${progressBarMargin}px`;
     setTimeout(sliderArrowHandler, 500);
