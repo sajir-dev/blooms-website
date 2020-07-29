@@ -1,0 +1,296 @@
+{
+    "projects": [   
+        {
+            "property-name": "Dew",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-1.png",
+            "legal-status": "100",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        } ,
+
+        {
+            "property-name": "Echo",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-2.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        },
+
+        {
+            "property-name": "Breeze",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-2.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        },
+
+        {
+            "property-name": "Dew",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-1.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        } ,
+
+        {
+            "property-name": "Echo",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-2.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        },
+
+        {
+            "property-name": "Breeze",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-2.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        },
+
+        {
+            "property-name": "Dew",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-1.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        } ,
+
+        {
+            "property-name": "Echo",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-2.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        },
+
+        {
+            "property-name": "Breeze",
+            "property-location":"Wayanad, Kerala",
+            "property-image": "img/item-2.png",
+            "legal-status": "90",
+            "property-type": "Self sufficient Community Living",
+            "plot-availability": "2",
+            "project-status": "Customer Acquisition"
+        }
+    ],
+
+
+    "listedProjects" : 
+        [
+            {
+                "property-id": 1,
+                "property-name": "Breeze",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-2.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            }, 
+            {
+                "property-id": 2,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-3.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 3,
+                "property-name": "Echo",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-4.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 4,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-5.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 5,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-5.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 6,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-5.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 7,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-5.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 8,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-5.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 9,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-3.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 10,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-2.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 11,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-5.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 12,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-4.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 13,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-4.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 14,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-4.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 15,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-4.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 16,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-4.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 17,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-4.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            },
+            {
+                "property-id": 18,
+                "property-name": "Dew",
+                "property-place":"Wayanad",
+                "property-state":"Kerala",
+                "property-image": "img/item-4.png",
+                "legal-status": "90",
+                "property-type": "Self Sufficient Community Living",
+                "plot-availability": "2",
+                "current-project-status": "Customer Acquisition"
+            }
+        ]
+}

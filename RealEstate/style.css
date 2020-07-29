@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image {
+    width: 100vw;
+    left: 0px;
+    top: 0px;
+}
+
+.background-image img {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+.header {
+    position: absolute;
+    top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 18fr 4fr;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    white-space: nowrap;
+    margin-top: 20px;
+    max-width: 1440px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.main-section1 {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 40%;
+}
+
+.main-section1 h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    width: 90%;
+}
+
+.main-section1 p {
+    color: white;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.3em;
+    width: 90%;
+}
+
+.main-video {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+#video {
+    width: 100%;
+}
+
+.main-sectionsvg {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+.main-section2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    position: relative;
+    width: 900px;
+}
+
+.main-section2 video {
+    object-fit: cover;
+    /*to cover all the box*/
+}
+
+.screen-section {
+    width: 150%;
+    height: 500px;
+}
+
+#video-section {
+    width: 100%;
+    /* height: 500px; */
+}
+
+.play-button {
+    position: absolute;
+    top: 20%;
+    z-index: 10;
+    display: block;
+}
+
+.fa-play-circle {
+    font-size: 250px;
+    color: rgb(231, 230, 230);
+    opacity: 0.7;
+    /* z-index: 100; */
+}
+
+.main-section3 {
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-section3>div {
+    margin: 100px 50px;
+    width: 486px;
+    height: 739px;
+}
+
+.main-section3-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    background-color: #0D1613;
+}
+
+.footer-section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 250px 10px;
+    max-width: 1440px;
+}
+
+#footer-section1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.02em;
+    color: #E5E5E5;
+}
+
+.footer-section2 {
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    max-width: 1440px;
+}
+
+.footer-section2 a {
+    text-decoration: none;
+    color: #E5E5E5;
+    margin: 20px 10px;
+    font-size: 18px;
+}
+
+.footer-section2 p {
+    cursor: pointer;
+    color: #E5E5E5;
+    margin: 15px 10px;
+    font-size: 17px;
+}
+
+.footer-section2-one {
+    width: 230px;
+    height: 29px;
+    text-align: center;
+}
+
+.footer-section2-two {
+    width: 179px;
+    height: 22px;
+    text-align: center;
+}
+
+.footer-section2-three {
+    width: 295px;
+    height: 44px;
+    text-align: center;
+}
+
+.footer-section2-four {
+    width: 287px;
+    height: 22px;
+    text-align: center;
+}
+
+#footer-talk {
+    font-size: 20px!important;
+    font-weight: 700;
+}
+
+.footer-section3 {
+    width: 95vw;
+    padding: 67px 5px 83px 5px;
+    color: #E5E5E5;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pagination {
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.project-details-btn {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #2D6A4F;
+    font-weight: 600;
+}
+
+.project-enquire-btn {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #2D6A4F;
+    color: #ffffff;
+}
+
+.margin {
+    margin-left: 9px;
+    position: relative;
+    top: 1px;
+}
+
+
+/* commenting the dropdown part:start - took over by Himaja */
+
+
+/* styling for project listing page dropdown- start: added by sajir */
+
+
+/* .container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+.header-section {
+    display: flex;
+    margin: 0 1em;
+    justify-content: space-between;
+}
+
+.header-section select {
+    border: 1px solid #E5E5E5;
+} */
+
+
+/* styling for project listing page dropdown -end : added by sajir */
+
+
+/* commenting the dropdown part:end - took over by Himaja  */
+
+
+/* START: styling for the cards- to be populated from JSON- by Sajir */
+
+.project-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+.project-item-card {
+    /* width: 33%; */
+    /* margin-left: 1.5%;
+    margin-right: 1.5%; */
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.project-listing-head {
+    color: rgb(45, 106, 79);
+    margin-top: 80px;
+}
+
+#home {
+    color: rgb(45, 106, 79);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+:focus {
+    outline: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.dropdown img {
+    float: right;
+    margin-left: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: white;
+}
+
+.dropdown-content a {
+    /* color: black; */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    color: rgb(45, 106, 79);
+    background-color: white;
+}
+
+#down-selector {
+    margin-top: 8px;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 30px;
+}
+
+.styled-nav a {
+    color: rgb(45, 106, 79);
+    font-weight: 700;
+}
+
+.styled-nav {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 15px;
+    white-space: nowrap;
+    display: flex;
+}
+
+#filter-image {
+    height: 25px;
+    margin-top: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.bars {
+    position: relative;
+    margin-left: 5px;
+}
+
+.small-bars {
+    margin-left: 5px;
+}
+
+.bar1 {
+    position: absolute;
+}
+
+.bar2 {
+    position: absolute;
+}
+
+.legal {
+    display: flex;
+    flex-direction: row;
+}
+
+.plot {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* END: styling for the cards- to be populated from JSON- by Sajir */
+
+@media screen and (max-width: 943px) {
+    .main-section2 {
+        width: 65%;
+        height: 5%;
+    }
+}
